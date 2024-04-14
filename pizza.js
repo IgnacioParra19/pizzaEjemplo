@@ -1,4 +1,5 @@
 class Pizza {
+  
   constructor(builder) {
     this.size = builder.size;
     this.cheese = builder.cheese || false;

@@ -1,30 +1,36 @@
-
-const Pizza = require('./pizza');
+// PizzaBuilder.js
+const IPizzaBuilder = require('./IPizzaBuilder');
+const Pizza = require('./Pizza');
 
 class PizzaBuilder {
   constructor(size) {
-    this.pizza = new Pizza();
-    this.pizza.size = size;
+    this.size = size;
   }
   
+  setSize(size) {
+    this.size = size;
+    return this;
+  }
+
   addCheese() {
-    this.pizza.cheese = true;
+    this.cheese = true;
     return this;
   }
-  
+
   addPepperoni() {
-    this.pizza.pepperoni = true;
+    this.pepperoni = true;
     return this;
   }
-  
+
   addTomato() {
-    this.pizza.tomato = true;
+    this.tomato = true;
     return this;
   }
-  
+
   build() {
-    return this.pizza;
+    return new Pizza(this);
   }
 }
 
 module.exports = PizzaBuilder;
+
