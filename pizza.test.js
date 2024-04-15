@@ -1,4 +1,5 @@
 const PizzaBuilder = require('./PizzaBuilder');
+const Pizza = require('./pizza');
 
 describe('PizzaBuilder', () => {
   test('builds a pizza with specified options', () => {
@@ -36,7 +37,7 @@ describe('PizzaBuilder', () => {
 
 });
 
-describe('Pizza', () => {
+describe('pizza', () => {
   test('describes pizza correctly', () => {
     const pizza = new Pizza({ size: 'Medium', cheese: true, pepperoni: true, tomato: false });
     const consoleSpy = jest.spyOn(console, 'log').mockImplementation();
