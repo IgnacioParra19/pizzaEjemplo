@@ -1,4 +1,6 @@
 const PizzaBuilder = require('./PizzaBuilder');
+const Pizza = require('./pizza');
+
 
 const myPizza = new PizzaBuilder('Medium')
                 .addCheese()
@@ -6,4 +8,4 @@ const myPizza = new PizzaBuilder('Medium')
                 .addTomato()
                 .build();
 
-myPizza.describe();
+myPizza.describe(); 

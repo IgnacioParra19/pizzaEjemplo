@@ -1,6 +1,6 @@
 // PizzaBuilder.js
 const IPizzaBuilder = require('./IPizzaBuilder');
-const Pizza = require('./Pizza');
+const Pizza = require('./pizza');
 
 class PizzaBuilder {
   constructor(size) {

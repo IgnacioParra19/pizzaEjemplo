@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1713188708862" clover="3.2.0">
+  <project timestamp="1713188708900" name="All files">
+    <metrics statements="21" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="13" coveredmethods="6" elements="40" coveredelements="30" complexity="0" loc="21" ncloc="21" packages="1" files="3" classes="3"/>
+    <file name="IPizzaBuilder.js" path="C:\Users\ignac\OneDrive\Documentos\UCP\Ing en Software 2\PizzaEjemplo\IPizzaBuilder.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+    </file>
+    <file name="PizzaBuilder.js" path="C:\Users\ignac\OneDrive\Documentos\UCP\Ing en Software 2\PizzaEjemplo\PizzaBuilder.js">
+      <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="31" count="5" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+    </file>
+    <file name="pizza.js" path="C:\Users\ignac\OneDrive\Documentos\UCP\Ing en Software 2\PizzaEjemplo\pizza.js">
+      <metrics statements="6" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="1"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
